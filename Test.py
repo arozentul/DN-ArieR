@@ -44,7 +44,7 @@ class BaseConnector:
         return up_interfaces
 
 
-if __name__ == "__main__":
+if __name__ == "__main__": hhhhhhh
     device_id = "wng1c7vs00017p2"
     connector = BaseConnector(ip=device_id, username='your_username')
     up_interfaces = connector.get_up_interfaces()
